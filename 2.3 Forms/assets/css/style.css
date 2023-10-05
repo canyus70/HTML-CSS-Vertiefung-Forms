@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* section {
+    border: 2px solid #000000;
+    padding: 10px 10px 10px 10px;
+} */
+
+main {
+    padding-left: 10px;
+}
+
+fieldset {
+    padding: 10px 5px 5px 5px;
+}
+
+.button_flex {
+    display: flex;
+    gap: 10px;
+}
+
+/* input[type=name], input[type=surname], input[type=email] {
+} */
+

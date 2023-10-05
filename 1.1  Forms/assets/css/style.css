@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 2rem ;
+} */
+
+section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 2rem;
+
+}
+
+/* .flex {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+} */
+
+input {
+    font-size: 0.8rem;
+}
+
+.vor-nachname_wrapper {
+    display: flex;
+    flex: 1;
+}
+
+input[class="textbox"] {
+    width: 10rem;
+    height: 2rem;
+    padding-left: 4px;
+    margin-bottom: 4px;
+}
+
+.email {
+    width: 20rem;
+    height: 2rem;
+    padding-left: 4px;
+    margin-bottom: 4px;
+}
+
+.thema {
+    width: 20rem;
+    height: 2rem;
+    padding-left: 4px;
+    margin-bottom: 4px;
+
+}
+
+/* .forms {
+    display: inline-block;
+    margin-inline: auto;
+    text-align: left;
+
+} */
+
+.submit {
+    background-color: aqua;
+    width:100%;
+    color: white;
+}
+
+.submit:hover {
+    background-color: blue;
+}
+
+/* textarea {
+    width: 100%;
+} */
